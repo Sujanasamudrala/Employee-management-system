@@ -1,0 +1,71 @@
+/* public/style.css */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, rgb(124, 124, 232), rgb(64, 64, 201));
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+    background: hwb(208 66% 1%);
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    border-radius: 12px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    flex: 1 1 30%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #377fd2;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3f30b0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #3991f0;
+    color: white;
+  }
+  
+  td, th {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .actions button {
+    margin-right: 8px;
+  }
+  
